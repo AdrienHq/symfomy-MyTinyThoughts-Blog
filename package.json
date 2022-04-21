@@ -1,0 +1,26 @@
+{
+  "name": "symfony-mytinythoughts-blog",
+  "version": "1.0.0",
+  "description": "My little blog made with symfony.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienHq/symfony-MyTinyThoughts-Blog.git"
+  },
+  "author": "AdrienHq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienHq/symfony-MyTinyThoughts-Blog/issues"
+  },
+  "homepage": "https://github.com/AdrienHq/symfony-MyTinyThoughts-Blog#readme"
+}
