@@ -1,2 +1,2 @@
-# symfomy-MyTinyThoughts-Blog
+# symfony-MyTinyThoughts-Blog
 My little blog made with symfony.
