@@ -14,6 +14,52 @@
         {% endblock %}
     </head>
     <body>
+        <nav class="py-2 bg-dark border-bottom">
+            <div class="container d-flex flex-wrap">
+                <div class="dropdown">
+                    <a class="nav nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Navigation
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminDashbopard">
+                        <a class="dropdown-item" href="#">DashBoard</a>
+                        <a class="dropdown-item" href="#">Menu</a>
+                        <a class="dropdown-item" href="#">Catégories</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a class="nav nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ajouter
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminAdd">
+                        <a class="dropdown-item" href="#">Article</a>
+                        <a class="dropdown-item" href="#">Page</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="{{ path('app_home') }}">
+                    <span class="fs-4">My Tiny Thoughts</span>
+                </a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Login</a>
+                    </li>
+                </ul>
+            </header>
+        </div>
         {% block body %}{% endblock %}
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="copyright">{{ 'now'|date('Y') }} All rights reserved</span>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
