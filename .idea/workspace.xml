@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: database">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20220422123940.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Media.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Option.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CommentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/MediaRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/MenuRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/OptionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/PageRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650555175594</updated>
       <workItem from="1650555179302" duration="1773000" />
-      <workItem from="1650629928716" duration="1389000" />
+      <workItem from="1650629928716" duration="1484000" />
     </task>
     <servers />
   </component>
