@@ -7,5 +7,15 @@
         <h1>{{ article.title|default('') }}</h1>
         <hr>
         {{ article.content|default('')|raw }}
+
+        <h2 class="comment-title mt-5">
+            <span id="comment-count">
+                {{  article.comments|length }} comment(s).
+            </span>
+        </h2>
+        <hr>
+        <div class="comment-area mb-5">
+            {{ form(commentForm) }}
+        </div>
     </div>
 {% endblock %}
