@@ -86,6 +86,8 @@ class MenuCrudController extends AbstractCrudController
 
     private function getFieldNameFromSubMenuIndex(int $subMenuIndex): string
     {
+        $fieldName = 'page';
+
         switch ($subMenuIndex){
             case self::MENU_ARTICLES:
                 $fieldName = 'article';
