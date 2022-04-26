@@ -22,6 +22,18 @@ class MenuRepository extends ServiceEntityRepository
         parent::__construct($registry, Menu::class);
     }
 
+    /**
+     * @return Menu[]
+     */
+    public function findAllForFront(): array
+    {
+        return $this->createQueryBuilder('m')
+            ->where('m.isVisible = true')
+            ->orderBy('m.menuOrder')
+            ->getQuery()
+            ->getResult();
+    }
+
     public function getIndexQueryBuilder(string $field): QueryBuilder
     {
         return $this->createQueryBuilder('m')
