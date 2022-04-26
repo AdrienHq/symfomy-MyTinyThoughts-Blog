@@ -1,3 +1,5 @@
+{% set menus = menu_service.findAll() %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,8 +23,8 @@
                         Navigation
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminDashbopard">
-                        <a class="dropdown-item" href="{{  path('admin') }}">DashBoard</a>
-                        <a class="dropdown-item" href="#">Menu</a>
+                        <a class="dropdown-item" href="{{ path('admin') }}">DashBoard</a>
+                        <a class="dropdown-item" href="{{ ea_index('MenuCrudController') }}">Menu</a>
                         <a class="dropdown-item" href="#">Catégories</a>
                     </div>
                 </div>
@@ -43,6 +45,26 @@
                     <span class="fs-4">My Tiny Thoughts</span>
                 </a>
                 <ul class="nav nav-pills">
+                    {% for menu in menus %}
+                        {% if menu.subMenus.count > 0 %}
+                            <div class="dropdown">
+                                <a class="nav nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{ menu.name }}
+                                </a>
+                                <ul class="dropdown-menu">
+                                    {% for subMenu in menu.subMenus %}
+                                        <li>
+                                            <a class="dropdown-item" href="{{ subMenu|menuLink }}">{{ subMenu.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% else %}
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="{{ menu|menuLink }}">{{ menu.name }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="#">Sign up</a>
                     </li>
