@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="ref: README.md">
-      <change afterPath="$PROJECT_DIR$/templates/widget/about.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/widget/categories.html.twig" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Comment form">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -139,6 +135,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="2876FJ0ShuGCmgqo34VwcN4fxj0" />
@@ -152,6 +149,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -171,7 +169,13 @@
       <option name="presentableId" value="Default" />
       <updated>1650555175594</updated>
       <workItem from="1650555179302" duration="1773000" />
-      <workItem from="1650629928716" duration="5589000" />
+      <workItem from="1650629928716" duration="5898000" />
+      <workItem from="1650709346170" duration="6503000" />
+      <workItem from="1650800259913" duration="4050000" />
+      <workItem from="1650829107399" duration="2305000" />
+      <workItem from="1650881575132" duration="4028000" />
+      <workItem from="1650887376657" duration="6594000" />
+      <workItem from="1650971337981" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="ref: README.md">
       <created>1650631821722</created>
@@ -180,7 +184,161 @@
       <option name="project" value="LOCAL" />
       <updated>1650631821722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: base and index basic">
+      <created>1650637565334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650637565334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: widgets">
+      <created>1650637575494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650637575494</updated>
+    </task>
+    <task id="LOCAL-00004" summary="debug: call for index.html.twig">
+      <created>1650637597249</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650637597249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="install popper">
+      <created>1650637610673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650637610673</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: crud controller for easy admin">
+      <created>1650724489331</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650724489331</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: small FE changes">
+      <created>1650724516687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650724516688</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: Article custom add form">
+      <created>1650724888197</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650724888197</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: EventSubscriber">
+      <created>1650725179777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650725179777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: TimeStamp Interface">
+      <created>1650727171083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650727171083</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: AdminSubscriber.php">
+      <created>1650727187413</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650727187414</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: Title page">
+      <created>1650805252753</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650805252753</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: Category CRUD">
+      <created>1650805270685</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650805270685</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: update DB">
+      <created>1650805509779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650805509779</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: logic category">
+      <created>1650806589074</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650806589074</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: FE category">
+      <created>1650806603083</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650806603083</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: Back to blog">
+      <created>1650883832490</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650883832490</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: User db">
+      <created>1650883894513</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650883894513</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: Comments ManytoOne User">
+      <created>1650884097151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650884097151</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feat: config">
+      <created>1650884133843</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650884133843</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat: Admin can't add comments">
+      <created>1650884412862</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650884412862</updated>
+    </task>
+    <task id="LOCAL-00022" summary="upgrade to php 7.4">
+      <created>1650892316289</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650892316289</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat: Comment form">
+      <created>1650892645343</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650892645343</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +358,29 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: database" />
     <MESSAGE value="ref: README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="ref: README.md" />
+    <MESSAGE value="feat: base and index basic" />
+    <MESSAGE value="feat: widgets" />
+    <MESSAGE value="debug: call for index.html.twig" />
+    <MESSAGE value="install popper" />
+    <MESSAGE value="feat: crud for easy admin" />
+    <MESSAGE value="feat: crud controller for easy admin" />
+    <MESSAGE value="feat: small FE changes" />
+    <MESSAGE value="feat: Article custom add form" />
+    <MESSAGE value="feat: EventSubscriber" />
+    <MESSAGE value="feat: TimeStamp Interface" />
+    <MESSAGE value="feat: AdminSubscriber.php" />
+    <MESSAGE value="feat: Title page" />
+    <MESSAGE value="feat: Category CRUD" />
+    <MESSAGE value="feat: update DB" />
+    <MESSAGE value="feat: logic category" />
+    <MESSAGE value="feat: FE category" />
+    <MESSAGE value="feat: Back to blog" />
+    <MESSAGE value="feat: User db" />
+    <MESSAGE value="feat: Comments ManytoOne User" />
+    <MESSAGE value="feat: config" />
+    <MESSAGE value="feat: Admin can't add comments" />
+    <MESSAGE value="upgrade to php 7.4" />
+    <MESSAGE value="feat: Comment form" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Comment form" />
   </component>
 </project>
