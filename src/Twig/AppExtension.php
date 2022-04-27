@@ -43,8 +43,6 @@ class AppExtension extends AbstractExtension
 
     public function menuLink(Menu $menu): string
     {
-        $name= 'app_home';
-        $slug = 'app_home';
         $article = $menu->getArticle();
         $category = $menu->getCategory();
         $page = $menu->getPage();
@@ -70,7 +68,7 @@ class AppExtension extends AbstractExtension
             $slug = $page->getSlug();
         }
 
-        if(isset($name, $slug)){
+        if(!isset($name, $slug)){
             return $url;
         }
 
