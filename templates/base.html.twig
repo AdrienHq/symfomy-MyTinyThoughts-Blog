@@ -79,7 +79,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="{{ path('app_logout') }}" class="dropdown-item">Profile</a>
+                                    <a href="{{ path('app_profile', { username: app.user.username}) }}" class="dropdown-item">Profile</a>
                                 </li>
                                 <li>
                                     <a href="{{ path('app_logout') }}" class="dropdown-item">Logout</a>
