@@ -15,6 +15,20 @@ use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 class UserController extends AbstractController
 {
     /**
+     * @Route("/user/{username}", name="app_profile")
+     */
+    public function index(?User $user): Response
+    {
+        if(!$user){
+            return $this->redirectToRoute('app_home');
+        }
+
+        return $this->render('user/index.html.twig', [
+            'user' => $user
+        ]);
+    }
+
+    /**
      * @Route("/user/register", name="app_register")
      */
     public function register(Request $request, UserPasswordHasherInterface $userPasswordHasher, EntityManagerInterface $entityManager): Response
@@ -38,7 +52,7 @@ class UserController extends AbstractController
             return $this->redirectToRoute('app_home');
         }
 
-        return $this->render('registration/register.html.twig', [
+        return $this->render('user/register.html.twig', [
             'registrationForm' => $form->createView(),
         ]);
     }
@@ -57,7 +71,7 @@ class UserController extends AbstractController
         // last username entered by the user
         $lastUsername = $authenticationUtils->getLastUsername();
 
-        return $this->render('security/login.html.twig', ['last_username' => $lastUsername, 'error' => $error]);
+        return $this->render('user/login.html.twig', ['last_username' => $lastUsername, 'error' => $error]);
     }
 
     /**
