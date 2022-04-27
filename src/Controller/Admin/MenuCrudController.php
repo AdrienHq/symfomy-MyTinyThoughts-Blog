@@ -96,7 +96,7 @@ class MenuCrudController extends AbstractCrudController
             case self::MENU_LINKS:
                 $fieldName = 'link';
                 break;
-            case self::MENU_PAGES:
+            default:
                 $fieldName = 'page';
                 break;
         }
