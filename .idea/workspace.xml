@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Comment form">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: User profile FE and refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +153,7 @@
       <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\templates\user" />
       <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\assets\js" />
     </key>
   </component>
@@ -176,6 +173,13 @@
       <workItem from="1650881575132" duration="4028000" />
       <workItem from="1650887376657" duration="6594000" />
       <workItem from="1650971337981" duration="598000" />
+      <workItem from="1651072484826" duration="8351000" />
+      <workItem from="1651140270210" duration="650000" />
+      <workItem from="1651162170261" duration="268000" />
+      <workItem from="1651162452166" duration="616000" />
+      <workItem from="1651226980049" duration="1193000" />
+      <workItem from="1651298594912" duration="594000" />
+      <workItem from="1651504716444" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="ref: README.md">
       <created>1650631821722</created>
@@ -338,7 +342,147 @@
       <option name="project" value="LOCAL" />
       <updated>1650892645343</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: Admin -&gt; Menu logic">
+      <created>1650987844576</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650987844576</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feat: Menu ToString">
+      <created>1650987865405</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650987865405</updated>
+    </task>
+    <task id="LOCAL-00026" summary="feat: Clean and filter result">
+      <created>1650987885047</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650987885047</updated>
+    </task>
+    <task id="LOCAL-00027" summary="feat: global MenuService">
+      <created>1651002391369</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1651002391369</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: Service repository">
+      <created>1651002402980</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1651002402980</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: Twig app Extension">
+      <created>1651002418932</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651002418932</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: FE Menus">
+      <created>1651002430530</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651002430530</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: Menu Logic">
+      <created>1651002442384</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651002442384</updated>
+    </task>
+    <task id="LOCAL-00032" summary="debug: menu">
+      <created>1651073878598</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1651073878598</updated>
+    </task>
+    <task id="LOCAL-00033" summary="debug: admin menu create">
+      <created>1651073994771</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1651073994771</updated>
+    </task>
+    <task id="LOCAL-00034" summary="debug: Return to menu dashboard form cms">
+      <created>1651074597008</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1651074597008</updated>
+    </task>
+    <task id="LOCAL-00035" summary="feat: init registration">
+      <created>1651076060961</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651076060961</updated>
+    </task>
+    <task id="LOCAL-00036" summary="feat: registration form">
+      <created>1651080787155</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1651080787155</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: Authenticator init">
+      <created>1651084013686</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651084013686</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: Login / Logout">
+      <created>1651085093882</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651085093882</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat: UserController Init">
+      <created>1651085570626</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1651085570626</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: show or not if logged">
+      <created>1651085593681</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651085593681</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ref: UserController take Registration and Security Controller">
+      <created>1651085798602</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1651085798602</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: user profile">
+      <created>1651086788061</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1651086788061</updated>
+    </task>
+    <task id="LOCAL-00043" summary="feat: User profile FE and refactor">
+      <created>1651086809973</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1651086809973</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,31 +500,31 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: database" />
-    <MESSAGE value="ref: README.md" />
-    <MESSAGE value="feat: base and index basic" />
-    <MESSAGE value="feat: widgets" />
-    <MESSAGE value="debug: call for index.html.twig" />
-    <MESSAGE value="install popper" />
-    <MESSAGE value="feat: crud for easy admin" />
-    <MESSAGE value="feat: crud controller for easy admin" />
-    <MESSAGE value="feat: small FE changes" />
-    <MESSAGE value="feat: Article custom add form" />
-    <MESSAGE value="feat: EventSubscriber" />
-    <MESSAGE value="feat: TimeStamp Interface" />
-    <MESSAGE value="feat: AdminSubscriber.php" />
-    <MESSAGE value="feat: Title page" />
-    <MESSAGE value="feat: Category CRUD" />
-    <MESSAGE value="feat: update DB" />
-    <MESSAGE value="feat: logic category" />
-    <MESSAGE value="feat: FE category" />
-    <MESSAGE value="feat: Back to blog" />
-    <MESSAGE value="feat: User db" />
     <MESSAGE value="feat: Comments ManytoOne User" />
     <MESSAGE value="feat: config" />
     <MESSAGE value="feat: Admin can't add comments" />
     <MESSAGE value="upgrade to php 7.4" />
     <MESSAGE value="feat: Comment form" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Comment form" />
+    <MESSAGE value="feat: Admin -&gt; Menu logic" />
+    <MESSAGE value="feat: Menu ToString" />
+    <MESSAGE value="feat: Clean and filter result" />
+    <MESSAGE value="feat: global MenuService" />
+    <MESSAGE value="feat: Service repository" />
+    <MESSAGE value="feat: Twig app Extension" />
+    <MESSAGE value="feat: FE Menus" />
+    <MESSAGE value="feat: Menu Logic" />
+    <MESSAGE value="debug: menu" />
+    <MESSAGE value="debug: admin menu create" />
+    <MESSAGE value="debug: Return to menu dashboard form cms" />
+    <MESSAGE value="feat: init registration" />
+    <MESSAGE value="feat: registration form" />
+    <MESSAGE value="feat: Authenticator init" />
+    <MESSAGE value="feat: Login / Logout" />
+    <MESSAGE value="feat: UserController Init" />
+    <MESSAGE value="feat: show or not if logged" />
+    <MESSAGE value="ref: UserController take Registration and Security Controller" />
+    <MESSAGE value="feat: user profile" />
+    <MESSAGE value="feat: User profile FE and refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: User profile FE and refactor" />
   </component>
 </project>
