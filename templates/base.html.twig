@@ -25,7 +25,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminDashbopard">
                         <a class="dropdown-item" href="{{ path('admin') }}">DashBoard</a>
-                        {% is_granted('ROLE_ADMIN') %}
+                        {% if is_granted('ROLE_ADMIN') %}
                             <a class="dropdown-item" href="{{ ea_index('MenuCrudController') }}">Menu</a>
                             <a class="dropdown-item" href="#">Catégories</a>
                         {% endif %}

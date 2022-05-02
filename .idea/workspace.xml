@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Admin crud user init">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/UserCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/UserCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +180,7 @@
       <workItem from="1651162452166" duration="616000" />
       <workItem from="1651226980049" duration="1193000" />
       <workItem from="1651298594912" duration="594000" />
-      <workItem from="1651504716444" duration="4753000" />
+      <workItem from="1651504716444" duration="5455000" />
     </task>
     <task id="LOCAL-00001" summary="ref: README.md">
       <created>1650631821722</created>
@@ -494,7 +490,42 @@
       <option name="project" value="LOCAL" />
       <updated>1651512201395</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="feat: User Crud Controller">
+      <created>1651516495040</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1651516495040</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: User Crud Controller">
+      <created>1651516501630</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1651516501630</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: User crud admin dashboard">
+      <created>1651516515547</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1651516515547</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat: Managed roles">
+      <created>1651516531924</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1651516531924</updated>
+    </task>
+    <task id="LOCAL-00049" summary="config">
+      <created>1651516538882</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1651516538882</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,10 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: config" />
-    <MESSAGE value="feat: Admin can't add comments" />
-    <MESSAGE value="upgrade to php 7.4" />
-    <MESSAGE value="feat: Comment form" />
     <MESSAGE value="feat: Admin -&gt; Menu logic" />
     <MESSAGE value="feat: Menu ToString" />
     <MESSAGE value="feat: Clean and filter result" />
@@ -537,6 +564,10 @@
     <MESSAGE value="feat: user profile" />
     <MESSAGE value="feat: User profile FE and refactor" />
     <MESSAGE value="feat: Admin crud user init" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Admin crud user init" />
+    <MESSAGE value="feat: User Crud Controller" />
+    <MESSAGE value="feat: User crud admin dashboard" />
+    <MESSAGE value="feat: Managed roles" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
 </project>
