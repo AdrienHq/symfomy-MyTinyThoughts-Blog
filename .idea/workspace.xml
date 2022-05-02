@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="config">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Admin media">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ArticleCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ArticleCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/MediaCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/MediaCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Media.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,28 +183,7 @@
       <workItem from="1651162452166" duration="616000" />
       <workItem from="1651226980049" duration="1193000" />
       <workItem from="1651298594912" duration="594000" />
-      <workItem from="1651504716444" duration="5455000" />
-    </task>
-    <task id="LOCAL-00001" summary="ref: README.md">
-      <created>1650631821722</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1650631821722</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat: base and index basic">
-      <created>1650637565334</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1650637565334</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat: widgets">
-      <created>1650637575494</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1650637575494</updated>
+      <workItem from="1651504716444" duration="7203000" />
     </task>
     <task id="LOCAL-00004" summary="debug: call for index.html.twig">
       <created>1650637597249</created>
@@ -525,7 +507,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651516538882</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="debug: missing if">
+      <created>1651527998986</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1651527998986</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat: config service for upload">
+      <created>1651528212595</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1651528212595</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: Admin media">
+      <created>1651528447897</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1651528447897</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,9 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Admin -&gt; Menu logic" />
-    <MESSAGE value="feat: Menu ToString" />
-    <MESSAGE value="feat: Clean and filter result" />
     <MESSAGE value="feat: global MenuService" />
     <MESSAGE value="feat: Service repository" />
     <MESSAGE value="feat: Twig app Extension" />
@@ -568,6 +568,9 @@
     <MESSAGE value="feat: User crud admin dashboard" />
     <MESSAGE value="feat: Managed roles" />
     <MESSAGE value="config" />
-    <option name="LAST_COMMIT_MESSAGE" value="config" />
+    <MESSAGE value="debug: missing if" />
+    <MESSAGE value="feat: config service for upload" />
+    <MESSAGE value="feat: Admin media" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Admin media" />
   </component>
 </project>
