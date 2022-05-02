@@ -3,23 +3,83 @@
 namespace App\Controller\Admin;
 
 use App\Entity\User;
-use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use Doctrine\ORM\EntityManagerInterface;
 
+use Doctrine\ORM\QueryBuilder;
+use EasyCorp\Bundle\EasyAdminBundle\Collection\FieldCollection;
+use EasyCorp\Bundle\EasyAdminBundle\Collection\FilterCollection;
+use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
+use EasyCorp\Bundle\EasyAdminBundle\Dto\EntityDto;
+use EasyCorp\Bundle\EasyAdminBundle\Dto\SearchDto;
+use EasyCorp\Bundle\EasyAdminBundle\Field\ChoiceField;
+use EasyCorp\Bundle\EasyAdminBundle\Field\TextField;
+use EasyCorp\Bundle\EasyAdminBundle\Orm\EntityRepository;
+use Symfony\Component\Form\Extension\Core\Type\PasswordType;
+use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
+use Symfony\Component\Security\Core\Validator\Constraints\UserPassword;
+
+/**
+ * @method User getUser()
+ */
 class UserCrudController extends AbstractCrudController
 {
+    private UserPasswordHasherInterface $passwordHasher;
+    private EntityRepository $entityRepository;
+
+    public function __construct(UserPasswordHasherInterface $passwordHasher, EntityRepository $entityRepository)
+    {
+        $this->passwordHasher = $passwordHasher;
+        $this->entityRepository = $entityRepository;
+    }
+
     public static function getEntityFqcn(): string
     {
         return User::class;
     }
 
-    /*
+    public function createIndexQueryBuilder(SearchDto $searchDto, EntityDto $entityDto, FieldCollection $fields, FilterCollection $filters): QueryBuilder
+    {
+        $userId = $this->getUser()->getId();
+
+        $qb = $this->entityRepository->createQueryBuilder($searchDto, $entityDto, $fields,$filters);
+        $qb->andWHere('entity.id != :userId')
+            ->setParameter('userId', $userId);
+
+        return $qb;
+    }
+
     public function configureFields(string $pageName): iterable
     {
-        return [
-            IdField::new('id'),
-            TextField::new('title'),
-            TextEditorField::new('description'),
-        ];
+        yield   TextField::new('username');
+        yield   TextField::new('password')
+            ->setFormType(PasswordType::class)
+            ->onlyOnForms();
+        yield ChoiceField::new('roles')
+            ->allowMultipleChoices()
+            ->renderAsBadges([
+                'ROLE_ADMIN' => 'success',
+                'ROLE_AUTHOR' => 'warning'
+            ])
+            ->setChoices([
+                'Administrator' => 'ROLE_ADMIN',
+                'Author' => 'ROLE_AUTHOR'
+            ]);
+
     }
-    */
+
+    public function persistEntity(EntityManagerInterface $entityManager, $entityInstance): void
+    {
+        /**
+         * @var User $user
+         */
+        $user = $entityInstance;
+        $hashedPassword = null;
+
+        $plainPassword = $user->getPassword();
+        $hashedPassword - $this->passwordHasher->hashPassword($user, $plainPassword);
+
+        $user->setPassword($hashedPassword);
+
+        parent::persistEntity($entityManager, $entityInstance);
+    }
 }
