@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Admin media">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Config services and toString">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/ArticleCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/ArticleCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/MediaCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/MediaCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Media.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +146,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -183,28 +180,11 @@
       <workItem from="1651162452166" duration="616000" />
       <workItem from="1651226980049" duration="1193000" />
       <workItem from="1651298594912" duration="594000" />
-      <workItem from="1651504716444" duration="7203000" />
-    </task>
-    <task id="LOCAL-00004" summary="debug: call for index.html.twig">
-      <created>1650637597249</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1650637597249</updated>
-    </task>
-    <task id="LOCAL-00005" summary="install popper">
-      <created>1650637610673</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1650637610673</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat: crud controller for easy admin">
-      <created>1650724489331</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1650724489331</updated>
+      <workItem from="1651504716444" duration="7381000" />
+      <workItem from="1651530220500" duration="262000" />
+      <workItem from="1651530498821" duration="82000" />
+      <workItem from="1651530595419" duration="278000" />
+      <workItem from="1651608725237" duration="977000" />
     </task>
     <task id="LOCAL-00007" summary="feat: small FE changes">
       <created>1650724516687</created>
@@ -528,7 +508,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651528447897</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="feat: Media CRUD">
+      <created>1651530032246</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1651530032246</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat: Media into article">
+      <created>1651530043886</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1651530043886</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: Config services and toString">
+      <created>1651530066695</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1651530066695</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,9 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: global MenuService" />
-    <MESSAGE value="feat: Service repository" />
-    <MESSAGE value="feat: Twig app Extension" />
     <MESSAGE value="feat: FE Menus" />
     <MESSAGE value="feat: Menu Logic" />
     <MESSAGE value="debug: menu" />
@@ -571,6 +569,9 @@
     <MESSAGE value="debug: missing if" />
     <MESSAGE value="feat: config service for upload" />
     <MESSAGE value="feat: Admin media" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Admin media" />
+    <MESSAGE value="feat: Media CRUD" />
+    <MESSAGE value="feat: Media into article" />
+    <MESSAGE value="feat: Config services and toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Config services and toString" />
   </component>
 </project>
