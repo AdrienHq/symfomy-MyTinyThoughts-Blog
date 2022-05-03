@@ -20,7 +20,7 @@ class CategoryController extends AbstractController
         }
         return $this->render('category/show.html.twig', [
             'category' => $category,
-            'articles' => $articleService->getPaginatedArticles()
+            'articles' => $articleService->getPaginatedArticles($category)
         ]);
     }
 }

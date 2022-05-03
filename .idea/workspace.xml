@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: paginator yaml with bootstrap config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="debug: Category use ArticleService">
       <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/category/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,14 +186,7 @@
       <workItem from="1651530220500" duration="262000" />
       <workItem from="1651530498821" duration="82000" />
       <workItem from="1651530595419" duration="278000" />
-      <workItem from="1651608725237" duration="3127000" />
-    </task>
-    <task id="LOCAL-00014" summary="feat: update DB">
-      <created>1650805509779</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1650805509779</updated>
+      <workItem from="1651608725237" duration="3209000" />
     </task>
     <task id="LOCAL-00015" summary="feat: logic category">
       <created>1650806589074</created>
@@ -533,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651614075795</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="debug: Category use ArticleService">
+      <created>1651614248052</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1651614248052</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Authenticator init" />
     <MESSAGE value="feat: Login / Logout" />
     <MESSAGE value="feat: UserController Init" />
     <MESSAGE value="feat: show or not if logged" />
@@ -576,6 +573,7 @@
     <MESSAGE value="feat: Url generator for admin" />
     <MESSAGE value="feat: Fe for some admin fct and pagination" />
     <MESSAGE value="feat: paginator yaml with bootstrap config" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: paginator yaml with bootstrap config" />
+    <MESSAGE value="debug: Category use ArticleService" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug: Category use ArticleService" />
   </component>
 </project>
