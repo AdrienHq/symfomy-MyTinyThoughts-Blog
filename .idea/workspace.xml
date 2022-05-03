@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="Install knp paginator bundle">
-      <change afterPath="$PROJECT_DIR$/src/Service/ArticleService.php" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Fe for some admin fct and pagination">
+      <change afterPath="$PROJECT_DIR$/config/packages/paginator.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Twig/AppExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twig/AppExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/list.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,42 +187,7 @@
       <workItem from="1651530220500" duration="262000" />
       <workItem from="1651530498821" duration="82000" />
       <workItem from="1651530595419" duration="278000" />
-      <workItem from="1651608725237" duration="2487000" />
-    </task>
-    <task id="LOCAL-00008" summary="feat: Article custom add form">
-      <created>1650724888197</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1650724888197</updated>
-    </task>
-    <task id="LOCAL-00009" summary="feat: EventSubscriber">
-      <created>1650725179777</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1650725179777</updated>
-    </task>
-    <task id="LOCAL-00010" summary="feat: TimeStamp Interface">
-      <created>1650727171083</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1650727171083</updated>
-    </task>
-    <task id="LOCAL-00011" summary="feat: AdminSubscriber.php">
-      <created>1650727187413</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1650727187414</updated>
-    </task>
-    <task id="LOCAL-00012" summary="feat: Title page">
-      <created>1650805252753</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1650805252753</updated>
+      <workItem from="1651608725237" duration="2924000" />
     </task>
     <task id="LOCAL-00013" summary="feat: Category CRUD">
       <created>1650805270685</created>
@@ -537,7 +497,42 @@
       <option name="project" value="LOCAL" />
       <updated>1651612109665</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="feat: Article Repository for pagination">
+      <created>1651613627671</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1651613627672</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat: Article Service">
+      <created>1651613658933</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1651613658933</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: Now call the service not the repo">
+      <created>1651613681101</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1651613681101</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: Url generator for admin">
+      <created>1651613707554</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1651613707555</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: Fe for some admin fct and pagination">
+      <created>1651613730362</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1651613730362</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,11 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Menu Logic" />
-    <MESSAGE value="debug: menu" />
-    <MESSAGE value="debug: admin menu create" />
-    <MESSAGE value="debug: Return to menu dashboard form cms" />
-    <MESSAGE value="feat: init registration" />
     <MESSAGE value="feat: registration form" />
     <MESSAGE value="feat: Authenticator init" />
     <MESSAGE value="feat: Login / Logout" />
@@ -580,6 +570,11 @@
     <MESSAGE value="feat: Media into article" />
     <MESSAGE value="feat: Config services and toString" />
     <MESSAGE value="Install knp paginator bundle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install knp paginator bundle" />
+    <MESSAGE value="feat: Article Repository for pagination" />
+    <MESSAGE value="feat: Article Service" />
+    <MESSAGE value="feat: Now call the service not the repo" />
+    <MESSAGE value="feat: Url generator for admin" />
+    <MESSAGE value="feat: Fe for some admin fct and pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Fe for some admin fct and pagination" />
   </component>
 </project>
