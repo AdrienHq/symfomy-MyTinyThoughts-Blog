@@ -31,14 +31,20 @@ class AppExtension extends AbstractExtension
     public function getFunctions(): array
     {
         return [
-            new TwigFunction('ea_index', [$this, 'getAdminUrl']),
+            new TwigFunction('ea_url_generator', [$this, 'getAdminUrl']),
         ];
     }
 
-    public function getAdminUrl(string $controller): string
+    public function getAdminUrl(string $controller, ?string $action = null): string
     {
-        return $this->adminUrlGenerator
+        $urlGenerator = $this->adminUrlGenerator
             ->setController(self::ADMIN_NAMESPACE . DIRECTORY_SEPARATOR . $controller);
+
+        if($action){
+            $urlGenerator->setAction($action);
+        }
+
+        return $urlGenerator->generateUrl();
     }
 
     public function menuLink(Menu $menu): string
