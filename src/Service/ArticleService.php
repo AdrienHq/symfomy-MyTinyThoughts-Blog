@@ -5,6 +5,7 @@ namespace App\Service;
 use App\Entity\Category;
 use App\Repository\ArticleRepository;
 use Knp\Component\Pager\PaginatorInterface;
+use Knp\Component\Pager\Pagination\PaginationInterface;
 use Symfony\Component\HttpFoundation\RequestStack;
 
 class ArticleService
@@ -20,7 +21,7 @@ class ArticleService
         $this->paginator = $paginator;
     }
 
-    public function getPaginatedArticles(?Category $category = null)
+    public function getPaginatedArticles(?Category $category = null): PaginationInterface
     {
         $request = $this->requestStack->getMainRequest();
         $page = $request->query->getInt('page', 1);
