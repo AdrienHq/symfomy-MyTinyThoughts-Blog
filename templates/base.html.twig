@@ -26,7 +26,7 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminDashbopard">
                         <a class="dropdown-item" href="{{ path('admin') }}">DashBoard</a>
                         {% if is_granted('ROLE_ADMIN') %}
-                            <a class="dropdown-item" href="{{ ea_index('MenuCrudController') }}">Menu</a>
+                            <a class="dropdown-item" href="{{ ea_url_generator('MenuCrudController') }}">Menu</a>
                             <a class="dropdown-item" href="#">Catégories</a>
                         {% endif %}
                     </div>
@@ -36,8 +36,8 @@
                         Ajouter
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminAdd">
-                        <a class="dropdown-item" href="#">Article</a>
-                        <a class="dropdown-item" href="#">Page</a>
+                        <a class="dropdown-item" href="{{ ea_url_generator('ArticleCrudController', 'new') }}">Article</a>
+                        <a class="dropdown-item" href="{{ ea_url_generator('PageCrudController', 'new') }}">Page</a>
                     </div>
                 </div>
             </div>
