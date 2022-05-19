@@ -16,6 +16,11 @@
         {% endblock %}
     </head>
     <body>
+        <header class="header">
+            {% block header %}
+                {{ include('/blocks/header.html.twig') }}
+            {% endblock %}
+        </header>
     {% if is_granted('ROLE_AUTHOR') %}
         <nav class="py-2 bg-dark border-bottom">
             <div class="container d-flex flex-wrap">
