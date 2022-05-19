@@ -21,33 +21,6 @@
                 {{ include('/blocks/header.html.twig') }}
             {% endblock %}
         </header>
-    {% if is_granted('ROLE_AUTHOR') %}
-        <nav class="py-2 bg-dark border-bottom">
-            <div class="container d-flex flex-wrap">
-                <div class="dropdown">
-                    <a class="nav nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Navigation
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminDashbopard">
-                        <a class="dropdown-item" href="{{ path('admin') }}">DashBoard</a>
-                        {% if is_granted('ROLE_ADMIN') %}
-                            <a class="dropdown-item" href="{{ ea_url_generator('MenuCrudController') }}">Menu</a>
-                            <a class="dropdown-item" href="#">Catégories</a>
-                        {% endif %}
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a class="nav nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ajouter
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButtonAdminAdd">
-                        <a class="dropdown-item" href="{{ ea_url_generator('ArticleCrudController', 'new') }}">Article</a>
-                        <a class="dropdown-item" href="{{ ea_url_generator('PageCrudController', 'new') }}">Page</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    {% endif %}
         <div class="container">
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                 <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" href="{{ path('app_home') }}">
