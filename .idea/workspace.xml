@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="debug: Category use ArticleService">
-      <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CategoryController.php" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="comments">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -153,6 +154,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\fonts" />
+      <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\assets\css" />
       <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -187,97 +190,10 @@
       <workItem from="1651530498821" duration="82000" />
       <workItem from="1651530595419" duration="278000" />
       <workItem from="1651608725237" duration="3209000" />
-    </task>
-    <task id="LOCAL-00015" summary="feat: logic category">
-      <created>1650806589074</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1650806589074</updated>
-    </task>
-    <task id="LOCAL-00016" summary="feat: FE category">
-      <created>1650806603083</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1650806603083</updated>
-    </task>
-    <task id="LOCAL-00017" summary="feat: Back to blog">
-      <created>1650883832490</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1650883832490</updated>
-    </task>
-    <task id="LOCAL-00018" summary="feat: User db">
-      <created>1650883894513</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1650883894513</updated>
-    </task>
-    <task id="LOCAL-00019" summary="feat: Comments ManytoOne User">
-      <created>1650884097151</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1650884097151</updated>
-    </task>
-    <task id="LOCAL-00020" summary="feat: config">
-      <created>1650884133843</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1650884133843</updated>
-    </task>
-    <task id="LOCAL-00021" summary="feat: Admin can't add comments">
-      <created>1650884412862</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1650884412862</updated>
-    </task>
-    <task id="LOCAL-00022" summary="upgrade to php 7.4">
-      <created>1650892316289</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1650892316289</updated>
-    </task>
-    <task id="LOCAL-00023" summary="feat: Comment form">
-      <created>1650892645343</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1650892645343</updated>
-    </task>
-    <task id="LOCAL-00024" summary="feat: Admin -&gt; Menu logic">
-      <created>1650987844576</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1650987844576</updated>
-    </task>
-    <task id="LOCAL-00025" summary="feat: Menu ToString">
-      <created>1650987865405</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1650987865405</updated>
-    </task>
-    <task id="LOCAL-00026" summary="feat: Clean and filter result">
-      <created>1650987885047</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1650987885047</updated>
-    </task>
-    <task id="LOCAL-00027" summary="feat: global MenuService">
-      <created>1651002391369</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1651002391369</updated>
+      <workItem from="1652997092588" duration="83000" />
+      <workItem from="1653031798735" duration="4198000" />
+      <workItem from="1653122160924" duration="153000" />
+      <workItem from="1653222868147" duration="4922000" />
     </task>
     <task id="LOCAL-00028" summary="feat: Service repository">
       <created>1651002402980</created>
@@ -531,7 +447,98 @@
       <option name="project" value="LOCAL" />
       <updated>1651614248052</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat: Block Header">
+      <created>1652980361923</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1652980361923</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat: Block admin Header">
+      <created>1652980818794</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1652980818794</updated>
+    </task>
+    <task id="LOCAL-00066" summary="feat: font awesome">
+      <created>1652982553928</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1652982553928</updated>
+    </task>
+    <task id="LOCAL-00067" summary="feat: footer">
+      <created>1652982575769</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1652982575769</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat: title">
+      <created>1652982590057</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1652982590057</updated>
+    </task>
+    <task id="LOCAL-00069" summary="feat: disable font awesome for now">
+      <created>1653033067919</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1653033067919</updated>
+    </task>
+    <task id="LOCAL-00070" summary="feat: Better header design">
+      <created>1653052769315</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1653052769315</updated>
+    </task>
+    <task id="LOCAL-00071" summary="feat: Login/signup logic in header">
+      <created>1653053208749</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1653053208749</updated>
+    </task>
+    <task id="LOCAL-00072" summary="feat: Title">
+      <created>1653227614105</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227614106</updated>
+    </task>
+    <task id="LOCAL-00073" summary="feat: Fonts">
+      <created>1653227625456</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227625456</updated>
+    </task>
+    <task id="LOCAL-00074" summary="feat: Css">
+      <created>1653227631782</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227631782</updated>
+    </task>
+    <task id="LOCAL-00075" summary="feat: All logice form base header move in the block">
+      <created>1653227954127</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1653227954127</updated>
+    </task>
+    <task id="LOCAL-00076" summary="comments">
+      <created>1653228016645</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228016645</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,19 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Login / Logout" />
-    <MESSAGE value="feat: UserController Init" />
-    <MESSAGE value="feat: show or not if logged" />
-    <MESSAGE value="ref: UserController take Registration and Security Controller" />
-    <MESSAGE value="feat: user profile" />
-    <MESSAGE value="feat: User profile FE and refactor" />
-    <MESSAGE value="feat: Admin crud user init" />
-    <MESSAGE value="feat: User Crud Controller" />
-    <MESSAGE value="feat: User crud admin dashboard" />
-    <MESSAGE value="feat: Managed roles" />
-    <MESSAGE value="config" />
-    <MESSAGE value="debug: missing if" />
-    <MESSAGE value="feat: config service for upload" />
     <MESSAGE value="feat: Admin media" />
     <MESSAGE value="feat: Media CRUD" />
     <MESSAGE value="feat: Media into article" />
@@ -574,6 +568,19 @@
     <MESSAGE value="feat: Fe for some admin fct and pagination" />
     <MESSAGE value="feat: paginator yaml with bootstrap config" />
     <MESSAGE value="debug: Category use ArticleService" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug: Category use ArticleService" />
+    <MESSAGE value="feat: Block Header" />
+    <MESSAGE value="feat: Block admin Header" />
+    <MESSAGE value="feat: font awesome" />
+    <MESSAGE value="feat: footer" />
+    <MESSAGE value="feat: title" />
+    <MESSAGE value="feat: disable font awesome for now" />
+    <MESSAGE value="feat: Better header design" />
+    <MESSAGE value="feat: Login/signup logic in header" />
+    <MESSAGE value="feat: Title" />
+    <MESSAGE value="feat: Fonts" />
+    <MESSAGE value="feat: Css" />
+    <MESSAGE value="feat: All logice form base header move in the block" />
+    <MESSAGE value="comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments" />
   </component>
 </project>
