@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Smooch';
+    src: url("/fonts/Smooch-Regular.ttf");
+}
+
+html {
+    font-size: 1600px;
+}
+
+.title-blog{
+    margin-top: 1000000px;
+    font-family: "Smooch", cursive;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red;
+}
+div{
+    margin-top: 1000000px;
+    font-family: "Smooch", cursive;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red;
+}
