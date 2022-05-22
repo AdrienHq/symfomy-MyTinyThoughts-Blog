@@ -21,32 +21,32 @@
                 {{ include('/blocks/header.html.twig') }}
             {% endblock %}
         </header>
-        <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                <ul class="nav nav-pills">
-                    {% for menu in menus %}
-                        {% if menu.subMenus.count > 0 %}
-                            <div class="dropdown">
-                                <a class="nav nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{ menu.name }}
-                                </a>
-                                <ul class="dropdown-menu">
-                                    {% for subMenu in menu.subMenus %}
-                                        <li>
-                                            <a class="dropdown-item" href="{{ subMenu|menuLink }}">{{ subMenu.name }}</a>
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        {% else %}
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="{{ menu|menuLink }}">{{ menu.name }}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </header>
-        </div>
+{#        <div class="container">#}
+{#            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">#}
+{#                <ul class="nav nav-pills">#}
+{#                    {% for menu in menus %}#}
+{#                        {% if menu.subMenus.count > 0 %}#}
+{#                            <div class="dropdown">#}
+{#                                <a class="nav nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">#}
+{#                                    {{ menu.name }}#}
+{#                                </a>#}
+{#                                <ul class="dropdown-menu">#}
+{#                                    {% for subMenu in menu.subMenus %}#}
+{#                                        <li>#}
+{#                                            <a class="dropdown-item" href="{{ subMenu|menuLink }}">{{ subMenu.name }}</a>#}
+{#                                        </li>#}
+{#                                    {% endfor %}#}
+{#                                </ul>#}
+{#                            </div>#}
+{#                        {% else %}#}
+{#                            <li class="nav-item">#}
+{#                                <a class="nav-link text-dark" href="{{ menu|menuLink }}">{{ menu.name }}</a>#}
+{#                            </li>#}
+{#                        {% endif %}#}
+{#                    {% endfor %}#}
+{#                </ul>#}
+{#            </header>#}
+{#        </div>#}
         {% block body %}{% endblock %}
         <footer>
             {{  include('blocks/footer.html.twig') }}

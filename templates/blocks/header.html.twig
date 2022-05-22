@@ -16,15 +16,35 @@
         </button>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Link</a>
-                </li>
+                {% for menu in menus %}
+                    {% if menu.subMenus.count > 0 %}
+                        <div class="dropdown">
+                            <a class="nav nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {{ menu.name }}
+                            </a>
+                            <ul class="dropdown-menu">
+                                {% for subMenu in menu.subMenus %}
+                                    <li class="nav-item text-white">
+                                        <a class="dropdown-item" href="{{ subMenu|menuLink }}">{{ subMenu.name }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="{{ menu|menuLink }}">{{ menu.name }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="javascript:void(0)">Link</a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="javascript:void(0)">Link</a>#}
+{#                </li>#}
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="javascript:void(0)">Link</a>#}
+{#                </li>#}
             </ul>
             {% if not is_granted('IS_AUTHENTICATED_FULLY') %}
                 <div class="d-flex">
