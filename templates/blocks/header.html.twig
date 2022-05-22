@@ -1,8 +1,15 @@
 {{ include('blocks/admin_header.html.twig') }}
+<div class="title-blog" style="text-align: center; padding-top: 50px; padding-bottom: 50px; background-color: lightgray ">
+    <h1>
+        <a style="color:black; text-decoration: none;" href="{{ path('app_home') }}">
+            <span>My Tiny Thoughts</span>
+        </a>
+    </h1>
+</div>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" style="color: white;" href="{{ path('app_home') }}">
-            <span class="fs-4">My Tiny Thoughts</span>
+            <span class="fs-4">MTT</span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
