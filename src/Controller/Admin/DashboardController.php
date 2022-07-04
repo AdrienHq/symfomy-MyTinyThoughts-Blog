@@ -7,6 +7,7 @@ use App\Entity\Category;
 use App\Entity\Comment;
 use App\Entity\Media;
 use App\Entity\Menu;
+use App\Entity\Option;
 use App\Entity\User;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
@@ -65,13 +66,17 @@ class DashboardController extends AbstractDashboardController
             ]);
         }
 
-        if($this->isGranted('ROLE_ADMIN')){
+        if($this->isGranted('ROLE_ADMIN')) {
             yield MenuItem::linkToCrud('Comments', 'fas fa-comment', Comment::class);
-        }
 
-        yield MenuItem::subMenu('Users accounts', 'fas fa-user')->setSubItems([
-            MenuItem::linkToCrud('All users', 'fas fa-user-friends', User::class),
-            MenuItem::linkToCrud('Add', 'fas fa-plus', User::class)->setAction(Crud::PAGE_NEW),
-        ]);
+            yield MenuItem::subMenu('Users accounts', 'fas fa-user')->setSubItems([
+                MenuItem::linkToCrud('All users', 'fas fa-user-friends', User::class),
+                MenuItem::linkToCrud('Add', 'fas fa-plus', User::class)->setAction(Crud::PAGE_NEW),
+            ]);
+
+            yield MenuItem::subMenu('Blog Parameters', 'fas fa-cog')->setSubItems([
+                MenuItem::linkToCrud('General', 'fas fa-cog', Option::class),
+            ]);
+        }
     }
 }

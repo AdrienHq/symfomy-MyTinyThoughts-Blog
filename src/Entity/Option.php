@@ -37,14 +37,8 @@ class Option
      * @ORM\Column(type="string", length=255)
      */
     private $type;
-
-    /**
-     * @param $label
-     * @param $name
-     * @param $value
-     * @param $type
-     */
-    public function __construct($label, $name, $value, $type)
+    
+    public function __construct(string $label,string $name,string $value,string $type)
     {
         $this->label = $label;
         $this->name = $name;
