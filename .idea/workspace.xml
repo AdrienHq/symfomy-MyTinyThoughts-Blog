@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="comments">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -193,14 +193,11 @@
       <workItem from="1652997092588" duration="83000" />
       <workItem from="1653031798735" duration="4198000" />
       <workItem from="1653122160924" duration="153000" />
-      <workItem from="1653222868147" duration="4922000" />
-    </task>
-    <task id="LOCAL-00028" summary="feat: Service repository">
-      <created>1651002402980</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1651002402980</updated>
+      <workItem from="1653222868147" duration="5412000" />
+      <workItem from="1653309698640" duration="594000" />
+      <workItem from="1653395990072" duration="2972000" />
+      <workItem from="1653509227130" duration="35000" />
+      <workItem from="1656925376379" duration="1480000" />
     </task>
     <task id="LOCAL-00029" summary="feat: Twig app Extension">
       <created>1651002418932</created>
@@ -538,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653228016645</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="feat: style">
+      <created>1653228094701</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1653228094701</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Admin media" />
     <MESSAGE value="feat: Media CRUD" />
     <MESSAGE value="feat: Media into article" />
     <MESSAGE value="feat: Config services and toString" />
@@ -581,6 +584,7 @@
     <MESSAGE value="feat: Css" />
     <MESSAGE value="feat: All logice form base header move in the block" />
     <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <MESSAGE value="feat: style" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: style" />
   </component>
 </project>
