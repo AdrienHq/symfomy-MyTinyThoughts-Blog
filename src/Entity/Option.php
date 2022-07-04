@@ -24,7 +24,7 @@ class Option
     private $label;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, unique=true)
      */
     private $name;
 
@@ -37,6 +37,20 @@ class Option
      * @ORM\Column(type="string", length=255)
      */
     private $type;
+
+    /**
+     * @param $label
+     * @param $name
+     * @param $value
+     * @param $type
+     */
+    public function __construct($label, $name, $value, $type)
+    {
+        $this->label = $label;
+        $this->name = $name;
+        $this->value = $value;
+        $this->type = $type;
+    }
 
     public function getId(): ?int
     {
