@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Option in the dashboard">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Dashboard look and feel modification + manage exception and boolean value">
+      <change afterPath="$PROJECT_DIR$/src/Service/OptionService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/OptionCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/OptionCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/OptionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/OptionRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,14 +202,7 @@
       <workItem from="1653395990072" duration="2972000" />
       <workItem from="1653509227130" duration="35000" />
       <workItem from="1656925376379" duration="4987000" />
-      <workItem from="1657021036928" duration="1404000" />
-    </task>
-    <task id="LOCAL-00032" summary="debug: menu">
-      <created>1651073878598</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1651073878598</updated>
+      <workItem from="1657021036928" duration="1965000" />
     </task>
     <task id="LOCAL-00033" summary="debug: admin menu create">
       <created>1651073994771</created>
@@ -545,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656940510937</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="feat: Dashboard look and feel modification + manage exception and boolean value">
+      <created>1657056082828</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1657056082828</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Install knp paginator bundle" />
     <MESSAGE value="feat: Article Repository for pagination" />
     <MESSAGE value="feat: Article Service" />
     <MESSAGE value="feat: Now call the service not the repo" />
@@ -588,6 +589,7 @@
     <MESSAGE value="feat: fixture bundle" />
     <MESSAGE value="feat: OptionFixtures.php and migration" />
     <MESSAGE value="feat: Option in the dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Option in the dashboard" />
+    <MESSAGE value="feat: Dashboard look and feel modification + manage exception and boolean value" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Dashboard look and feel modification + manage exception and boolean value" />
   </component>
 </project>
