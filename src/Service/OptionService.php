@@ -10,7 +10,7 @@ class OptionService
 
     public function __construct(OptionRepository $optionRepository)
     {
-        $optionRepository = $this->optionRepository;
+        $this->optionRepository = $optionRepository;
     }
 
     public function findALl(): array
