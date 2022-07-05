@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: style">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Option in the dashboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/OptionCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/OptionCrudController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +135,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="2876FJ0ShuGCmgqo34VwcN4fxj0" />
@@ -197,28 +199,8 @@
       <workItem from="1653309698640" duration="594000" />
       <workItem from="1653395990072" duration="2972000" />
       <workItem from="1653509227130" duration="35000" />
-      <workItem from="1656925376379" duration="1480000" />
-    </task>
-    <task id="LOCAL-00029" summary="feat: Twig app Extension">
-      <created>1651002418932</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1651002418932</updated>
-    </task>
-    <task id="LOCAL-00030" summary="feat: FE Menus">
-      <created>1651002430530</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1651002430530</updated>
-    </task>
-    <task id="LOCAL-00031" summary="feat: Menu Logic">
-      <created>1651002442384</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1651002442384</updated>
+      <workItem from="1656925376379" duration="4987000" />
+      <workItem from="1657021036928" duration="1404000" />
     </task>
     <task id="LOCAL-00032" summary="debug: menu">
       <created>1651073878598</created>
@@ -542,7 +524,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653228094701</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="feat: fixture bundle">
+      <created>1656937838040</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1656937838041</updated>
+    </task>
+    <task id="LOCAL-00079" summary="feat: OptionFixtures.php and migration">
+      <created>1656940211316</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1656940211316</updated>
+    </task>
+    <task id="LOCAL-00080" summary="feat: Option in the dashboard">
+      <created>1656940510936</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1656940510937</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,9 +563,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Media CRUD" />
-    <MESSAGE value="feat: Media into article" />
-    <MESSAGE value="feat: Config services and toString" />
     <MESSAGE value="Install knp paginator bundle" />
     <MESSAGE value="feat: Article Repository for pagination" />
     <MESSAGE value="feat: Article Service" />
@@ -585,6 +585,9 @@
     <MESSAGE value="feat: All logice form base header move in the block" />
     <MESSAGE value="comments" />
     <MESSAGE value="feat: style" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: style" />
+    <MESSAGE value="feat: fixture bundle" />
+    <MESSAGE value="feat: OptionFixtures.php and migration" />
+    <MESSAGE value="feat: Option in the dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Option in the dashboard" />
   </component>
 </project>
