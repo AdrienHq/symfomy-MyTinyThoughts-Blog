@@ -21,10 +21,12 @@ class OptionRepository extends ServiceEntityRepository
         parent::__construct($registry, Option::class);
     }
 
+    /**
+     * @return Option[]
+     */
     public function findAllForTwig(): array
     {
         return $this->createQueryBuilder('o', 'o.name')
-            ->select('o.name', 'o.value')
             ->getQuery()
             ->getResult();
     }
