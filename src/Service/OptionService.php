@@ -17,4 +17,9 @@ class OptionService
     {
         return $this->optionRepository->findAllForTwig();
     }
+
+    public function getValue(string $name): string
+    {
+        return $this->optionRepository->getValue($name);
+    }
 }

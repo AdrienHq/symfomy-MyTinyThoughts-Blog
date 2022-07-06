@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Dashboard look and feel modification + manage exception and boolean value">
-      <change afterPath="$PROJECT_DIR$/src/Service/OptionService.php" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Implement Option service for the title in the FE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/OptionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/OptionRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ArticleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ArticleService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/OptionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/OptionService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,42 +202,8 @@
       <workItem from="1653395990072" duration="2972000" />
       <workItem from="1653509227130" duration="35000" />
       <workItem from="1656925376379" duration="4987000" />
-      <workItem from="1657021036928" duration="1965000" />
-    </task>
-    <task id="LOCAL-00033" summary="debug: admin menu create">
-      <created>1651073994771</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1651073994771</updated>
-    </task>
-    <task id="LOCAL-00034" summary="debug: Return to menu dashboard form cms">
-      <created>1651074597008</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1651074597008</updated>
-    </task>
-    <task id="LOCAL-00035" summary="feat: init registration">
-      <created>1651076060961</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1651076060961</updated>
-    </task>
-    <task id="LOCAL-00036" summary="feat: registration form">
-      <created>1651080787155</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1651080787155</updated>
-    </task>
-    <task id="LOCAL-00037" summary="feat: Authenticator init">
-      <created>1651084013686</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1651084013686</updated>
+      <workItem from="1657021036928" duration="3337000" />
+      <workItem from="1657137173054" duration="2303000" />
     </task>
     <task id="LOCAL-00038" summary="feat: Login / Logout">
       <created>1651085093882</created>
@@ -547,7 +513,42 @@
       <option name="project" value="LOCAL" />
       <updated>1657056082828</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="feat: Option Service integration">
+      <created>1657056607970</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1657056607970</updated>
+    </task>
+    <task id="LOCAL-00083" summary="feat: Option Repo findAll only return name &amp; value">
+      <created>1657057606028</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1657057606028</updated>
+    </task>
+    <task id="LOCAL-00084" summary="debug: Correction constructor">
+      <created>1657057893337</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1657057893337</updated>
+    </task>
+    <task id="LOCAL-00085" summary="feat: toString">
+      <created>1657058032404</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1657058032404</updated>
+    </task>
+    <task id="LOCAL-00086" summary="feat: Implement Option service for the title in the FE">
+      <created>1657058060483</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1657058060483</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,11 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: Article Repository for pagination" />
-    <MESSAGE value="feat: Article Service" />
-    <MESSAGE value="feat: Now call the service not the repo" />
-    <MESSAGE value="feat: Url generator for admin" />
-    <MESSAGE value="feat: Fe for some admin fct and pagination" />
     <MESSAGE value="feat: paginator yaml with bootstrap config" />
     <MESSAGE value="debug: Category use ArticleService" />
     <MESSAGE value="feat: Block Header" />
@@ -590,6 +586,11 @@
     <MESSAGE value="feat: OptionFixtures.php and migration" />
     <MESSAGE value="feat: Option in the dashboard" />
     <MESSAGE value="feat: Dashboard look and feel modification + manage exception and boolean value" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Dashboard look and feel modification + manage exception and boolean value" />
+    <MESSAGE value="feat: Option Service integration" />
+    <MESSAGE value="feat: Option Repo findAll only return name &amp; value" />
+    <MESSAGE value="debug: Correction constructor" />
+    <MESSAGE value="feat: toString" />
+    <MESSAGE value="feat: Implement Option service for the title in the FE" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement Option service for the title in the FE" />
   </component>
 </project>
