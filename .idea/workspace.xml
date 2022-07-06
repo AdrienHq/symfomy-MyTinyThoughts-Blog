@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Implement Option service for the title in the FE">
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Number of article Option Logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/OptionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/OptionRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/ArticleService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/ArticleService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/OptionService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/OptionService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blocks/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blocks/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,14 +202,7 @@
       <workItem from="1653509227130" duration="35000" />
       <workItem from="1656925376379" duration="4987000" />
       <workItem from="1657021036928" duration="3337000" />
-      <workItem from="1657137173054" duration="2303000" />
-    </task>
-    <task id="LOCAL-00038" summary="feat: Login / Logout">
-      <created>1651085093882</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1651085093882</updated>
+      <workItem from="1657137173054" duration="2789000" />
     </task>
     <task id="LOCAL-00039" summary="feat: UserController Init">
       <created>1651085570626</created>
@@ -548,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657058060483</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="feat: Number of article Option Logic">
+      <created>1657139720507</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1657139720508</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: paginator yaml with bootstrap config" />
     <MESSAGE value="debug: Category use ArticleService" />
     <MESSAGE value="feat: Block Header" />
     <MESSAGE value="feat: Block admin Header" />
@@ -591,6 +589,7 @@
     <MESSAGE value="debug: Correction constructor" />
     <MESSAGE value="feat: toString" />
     <MESSAGE value="feat: Implement Option service for the title in the FE" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement Option service for the title in the FE" />
+    <MESSAGE value="feat: Number of article Option Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Number of article Option Logic" />
   </component>
 </project>
