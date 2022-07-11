@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Number of article Option Logic">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" afterDir="false" />
+    <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Template for 404 error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +150,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -159,6 +158,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\templates\bundles\TwigBundle\Exception" />
       <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\fonts" />
       <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog\assets\css" />
       <recent name="C:\dev\prj\symfony-MyTinyThoughts-Blog" />
@@ -206,21 +206,7 @@
       <workItem from="1657021036928" duration="3337000" />
       <workItem from="1657137173054" duration="2789000" />
       <workItem from="1657178785776" duration="4028000" />
-      <workItem from="1657543359185" duration="1471000" />
-    </task>
-    <task id="LOCAL-00039" summary="feat: UserController Init">
-      <created>1651085570626</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1651085570626</updated>
-    </task>
-    <task id="LOCAL-00040" summary="feat: show or not if logged">
-      <created>1651085593681</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1651085593681</updated>
+      <workItem from="1657543359185" duration="4772000" />
     </task>
     <task id="LOCAL-00041" summary="ref: UserController take Registration and Security Controller">
       <created>1651085798602</created>
@@ -551,7 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657139720508</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="feat: Error bundle">
+      <created>1657544867910</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1657544867911</updated>
+    </task>
+    <task id="LOCAL-00089" summary="feat: Template for 404 error">
+      <created>1657544887449</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1657544887449</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,8 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="debug: Category use ArticleService" />
-    <MESSAGE value="feat: Block Header" />
     <MESSAGE value="feat: Block admin Header" />
     <MESSAGE value="feat: font awesome" />
     <MESSAGE value="feat: footer" />
@@ -594,6 +592,8 @@
     <MESSAGE value="feat: toString" />
     <MESSAGE value="feat: Implement Option service for the title in the FE" />
     <MESSAGE value="feat: Number of article Option Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Number of article Option Logic" />
+    <MESSAGE value="feat: Error bundle" />
+    <MESSAGE value="feat: Template for 404 error" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Template for 404 error" />
   </component>
 </project>
