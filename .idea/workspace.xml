@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d250e1-87af-49f2-9f6b-c16ada798dae" name="Changes" comment="feat: Number of article Option Logic">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-MyTinyThoughts-Blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blocks/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blocks/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +139,7 @@
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-pack" />
     </include_path>
   </component>
   <component name="ProjectId" id="2876FJ0ShuGCmgqo34VwcN4fxj0" />
@@ -203,6 +205,8 @@
       <workItem from="1656925376379" duration="4987000" />
       <workItem from="1657021036928" duration="3337000" />
       <workItem from="1657137173054" duration="2789000" />
+      <workItem from="1657178785776" duration="4028000" />
+      <workItem from="1657543359185" duration="1471000" />
     </task>
     <task id="LOCAL-00039" summary="feat: UserController Init">
       <created>1651085570626</created>
