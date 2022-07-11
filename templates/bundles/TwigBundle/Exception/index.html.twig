@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block errorCSS %}{% endblock %}
+
+{% block body %}
+    <div class="text-center py-5">
+        <h2 style="padding-bottom: 95px; color: #cc0000">{% block message %}{% endblock %}</h2>
+        <br>
+        {% block animation %}{% endblock %}
+        <br>
+        <h3 style="padding-top: 60px; color: #cc0000">{% block description %}{% endblock %}</h3>
+    </div>
+{% endblock %}
